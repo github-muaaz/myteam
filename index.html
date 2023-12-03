@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img class="logo-img" src="./assets/icons/logo.svg" alt="logo">
+
+            <div class="nav-right">
+                <a href="#">home</a>
+                <a href="#">about</a>
+
+                <button>contact us</button>
+            </div>
+
+            <img onclick="openSidebar()" class="sidebar-icon" src="./assets//icons/sidebar_icon.svg" alt="sidebar icon">
+        </nav>
+
+        <div class="about">
+            <h1>About</h1>
+            <p>We help companies build dynamic teams made up of top global talent. Using our network of passionate
+                professionals we drive innovation and deliver incredible outcomes. Talented, diverse teams shape the
+                best products and experiences. We’ll bring those teams to you.</p>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <img onclick="hideSidebar()" src="./assets/icons/close-icon.svg" alt="close icon">
+
+        <a href="#">home</a>
+        <a href="#">about</a>
+
+        <button>contact us</button>
+    </nav>
+
+    <main>
+        <section class="section-1">
+            <h1>Meet the directors</h1>
+
+            <div class="cards">
+                <div class="card">
+                    <img class="dir-img" src="./assets/images/director-1.png" alt="director image">
+                    <h2>Nikita Marks</h2>
+                    <p>Founder & CEO</p>
+                    <img class="plus-icon" src="./assets/icons/plus.svg" alt="plus icon">
+                </div>
+                <div class="card">
+                    <img class="dir-img" src="./assets/images/director-2.png" alt="director image">
+                    <h2>Cristian Duncan</h2>
+                    <p>Co-founder & COO</p>
+                    <img class="plus-icon" src="./assets/icons/plus.svg" alt="plus icon">
+                </div>
+                <div class="card">
+                    <img class="dir-img" src="./assets/images/director-3.png" alt="director image">
+                    <h2>Cruz Hamer</h2>
+                    <p>Co-founder & CTO</p>
+                    <img class="plus-icon" src="./assets/icons/plus.svg" alt="plus icon">
+                </div>
+            </div>
+        </section>
+
+        <section class="section-2">
+            <h1>Some of our clients</h1>
+
+            <div class="clients">
+                <img src="./assets/icons/the-verge.svg" alt="client image">
+                <img src="./assets/icons/the-jakarta-post.svg" alt="client image">
+                <img src="./assets/icons/the-guardian.svg" alt="client image">
+                <img src="./assets/icons/tech-radar.svg" alt="client image">
+                <img src="./assets/icons/gadgets-now.svg" alt="client image">
+            </div>
+        </section>
+
+        <section class="section-3">
+            <h1>Ready to get started?</h1>
+            <button>contact us</button>
+        </section>
+
+        <footer>
+            <img class="logo-img" src="./assets/icons/logo.svg" alt="logo">
+
+            <div class="footer-right">
+                <a target="_blank" href="https://facebook.com">
+                    <img src="./assets/icons/facebook.svg" alt="facebook logo">
+                </a>
+
+                <a target="_blank" href="https://pinterest.com">
+                    <img src="./assets/icons/pinterest.svg" alt="pinterest logo">
+                </a>
+
+                <a target="_blank" href="https://twitter.com">
+                    <img src="./assets/icons/twitter.svg" alt="twitter log">
+                </a>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
