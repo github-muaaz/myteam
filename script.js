@@ -7,5 +7,5 @@ function openSidebar() {
 function hideSidebar() {
     navbar = document.getElementById("navbar");
 
-    navbar.style.right = "-65%";
+    navbar.style.right = "-100%";
 }
